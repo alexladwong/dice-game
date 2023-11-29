@@ -81,6 +81,7 @@ btnHold.addEventListener('click', function () {
             // Finish the game
             playing = false;
             diceEl.classList.add('hidden');
+            alert(Game Over!!!);
 
             document
                 .querySelector(`.player--${activePlayer}`)
